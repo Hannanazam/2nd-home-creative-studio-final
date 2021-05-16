@@ -1,0 +1,309 @@
+@font-face {
+    font-family: "charlot";
+    src: url(../assest/Charlotte\ Southern.ttf);
+}
+@font-face {
+    font-family: "futuram";
+    src: url(../assest/futura\ medium\ bt.ttf);
+}
+@font-face {
+    font-family: "felixti";
+    src: url(../assest/FELIXTI.TTF);
+}
+
+
+#header{
+    position: absolute !important;
+    top: 20px !important;
+    right: 20px !important;
+    width: 100% !important;
+}
+#header .navbar{
+    z-index: 100000 !important;
+}
+#header .navbar .navbar-toggler{
+    border: none !important;
+}
+#header .navbar .navbar-toggler .fal{
+    color: #fff !important;
+    z-index: 10000 !important;
+    font-size: 2.3rem !important;    
+}
+#header .navbar .navbar-nav{
+    margin-right: 10px !important;
+    position: absolute;
+    top: 50px !important;
+    right: 15px !important;
+}
+#header .navbar .navbar-nav .nav-item .nav-link{
+    font-family: futuram , 'sans-sarif';
+    text-transform: uppercase !important;
+    font-size: 18px !important;
+    padding: 5px !important;
+    color: #fff !important;
+}
+#header .navbar .navbar-nav .nav-item .nav-link:hover{
+    color: #4e4e4e !important;
+}
+
+
+
+#header .nav-item1 {
+    animation: fadeInDown 1s ease-in-out both;
+  }
+  #header .nav-item2 {
+    animation: fadeInDown 1.1s ease-in-out both;
+  }
+  #header .nav-item3 {
+    animation: fadeInDown 1.2s ease-in-out both;
+  }
+  #header .nav-item4 {
+    animation: fadeInDown 1.3s ease-in-out both;
+  }
+  #header .nav-item5 {
+    animation: fadeInDown 1.4s ease-in-out both;
+  }
+
+  
+  @keyframes fadeInDown {
+    0% {
+        opacity: 0;
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+    }
+  
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+  }
+/* home  */
+
+
+
+
+/* home  */
+
+#homestory{
+   background-color: #000 !important;
+   width: 100%;
+   height: 80vh;
+}
+#homestory img{
+    margin-top: 110px !important;
+}
+
+
+/* socialicon */
+
+
+#socialicon .inline{
+    position: absolute;
+    right: 50px !important;
+    bottom: 150px !important;
+    display: block !important;
+}
+#socialicon a{
+    text-decoration: none !important;
+    color: #fff !important;
+    display: block !important;
+    font-size: 2rem;
+}
+/* socialicon */
+/* home  */
+
+
+/* mainheading */
+#mainheading{
+    margin: 70px 50px !important;
+    font-family: futuram , 'sans-sarif';
+}
+#mainheading h3{
+    margin: 20px auto !important;
+    font-size: 1.7rem !important;
+    font-weight: 400;
+    font-family: felixti , 'sans-sarif';
+    text-transform: uppercase !important;
+}
+.setwidth{
+    width: 40% !important;
+}
+/* mainheading */
+
+/* whatwesearve */
+#serve{
+    margin: 0px 50px 100px 50px !important;
+}
+#serve h1{
+    font-size: 4rem !important;
+    color: #000 !important;
+    font-weight: 500;
+    font-family: futuram , 'sans-sarif';
+    text-transform: uppercase !important;
+}
+#serve .maincontent{
+    display: inline-flex !important;
+}
+#serve .firstcontent{
+    margin: 70px 20px 20px 20px !important;
+}
+#serve .firstcontent h3{
+    font-family: charlot , 'sans-sarif';
+    margin-bottom: -20px !important;
+    font-size: 2rem !important;
+    font-weight: 400 !important;
+    color: #999999 !important;
+}
+#serve .firstcontent h1{
+    font-family: felixti , 'sans-sarif';
+    font-size: 2rem !important;
+    font-weight: 500 !important;
+    text-align: center !important;
+}
+#serve .firstcontent span a{
+    text-decoration: none !important;
+    background-color: lightgrey !important;
+    color: #000 !important;
+    padding: 0px 10px !important;
+    margin: 0px 10px !important;
+}
+#serve .firstcontent p{
+    font-family: felixti , 'sans-sarif';
+    color: #999999 !important;
+    font-size: 1rem !important;
+    word-spacing: 2px !important;
+    letter-spacing: 1px !important;
+}
+#serve .animationcontent{
+    margin-top: 140px !important;
+}
+#serve .animationcontent p{
+    margin-top: 47px !important;
+}
+#serve .photographycontent{
+    margin-top: 160px !important;
+}
+#serve .photographycontent p{
+    margin-top: 50px !important;
+}
+.showonmedium{
+    display: none !important;
+}
+/* whatwesearve */
+
+/* footer  */
+#footer{
+    background-color: #000 !important;
+    padding: 50px !important;
+}
+#footer .borderright{
+    border-right: 3px solid #fff !important;
+    padding: 30px 0px !important;
+}
+#footer .borderright .socialicon{
+    margin-top: 30px !important;
+}
+#footer .borderright .socialicon a{
+    text-decoration: none !important;
+    color: #4e4e4e !important;
+    font-size: 1.5rem !important;
+    margin: 0px 5px !important;
+}
+#footer .project{
+    color: #fff !important;
+    width: 30% !important;
+}
+#footer .project p span{
+    color: #4e4e4e !important;
+    font-size: 1rem !important;
+    font-weight: 500 !important;
+}
+#footer .absoluteposition{
+    color: #fff !important;
+    margin-top: 60px !important;
+}
+
+/* footer  */
+
+@media (max-width:992px){
+    .hideonmedium{
+        display: none !important;
+    }
+    #serve .showonmedium .photographycontent{
+            margin-top: 70px !important;
+    }
+    .showonmedium{
+        display: block !important;
+    }
+    #footer .project{
+        color: #fff !important;
+        width: 50% !important;
+    }
+}
+
+@media (max-width:765px) {
+    #header{
+        position: absolute !important;
+        top: 10px !important;
+        right: 5px !important;
+        width: 100% !important;
+    }
+    #header .navbar .navbar-nav{
+        color: #fff !important;
+        width: 100vw !important;
+        background-color: #000 !important;
+        margin-right: -25px !important;
+        text-align: center !important;
+    }
+    #header .navbar .navbar-nav .nav-item .nav-link{
+        color: #fff !important;
+    }
+
+
+    #mainheading {
+        margin: 70px 0px !important;
+        font-family: futuram , 'sans-sarif';
+    }
+    #mainheading h1{
+        font-size: 2.5rem !important;
+        font-weight: 500;
+    }
+    #mainheading h3{
+        font-size: 1.3rem !important;
+    }
+    #mainheading .setwidth{
+        width: 100% !important;
+    }
+    /* whatwesearve */
+#serve{
+    margin: 0px 0px 100px 0px !important;
+}
+#serve h1{
+    font-size: 3rem !important;
+}
+
+#serve .firstcontent h1{
+    margin: 0px 25px !important;
+}
+/* whatwesearve */
+
+/* footer  */
+#footer{
+    background-color: #000 !important;
+    padding: 10px !important;
+}
+#footer .borderright{
+    border-right: 0px solid transparent !important;
+    border-bottom: 3px solid #fff !important;
+    padding: 30px 0px !important;
+    margin: 0px 0px 20px 0px !important;
+}
+#footer .project{
+    width: 100% !important;
+}
+
+/* footer  */
+}
